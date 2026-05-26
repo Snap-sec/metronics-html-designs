@@ -1,0 +1,851 @@
+<table class="kt-table table-fixed kt-table-border" data-kt-datatable-table="true">
+                                    <thead>
+                                       <tr>
+                                          <th class="w-[60px] text-center">
+                                             <input class="kt-checkbox kt-checkbox-sm" data-kt-datatable-check="true"
+                                                type="checkbox">
+
+                                          </th>
+                                          <th class="w-[350px]">
+                                             <span class="kt-table-col">
+                                                <span class="kt-table-col-label">
+                                                   Team
+                                                </span>
+                                                <span class="kt-table-col-sort">
+                                                </span>
+                                             </span>
+                                          </th>
+                                          <th class="w-[200px]">
+                                             <span class="kt-table-col">
+                                                <span class="kt-table-col-label">
+                                                   Rating
+                                                </span>
+                                                <span class="kt-table-col-sort">
+                                                </span>
+                                             </span>
+                                          </th>
+                                          <th class="w-[200px]">
+                                             <span class="kt-table-col">
+                                                <span class="kt-table-col-label">
+                                                   Last Modified
+                                                </span>
+                                                <span class="kt-table-col-sort">
+                                                </span>
+                                             </span>
+                                          </th>
+                                          <th class="w-[200px]">
+                                             <span class="kt-table-col">
+                                                <span class="kt-table-col-label">
+                                                   Members
+                                                </span>
+                                                <span class="kt-table-col-sort">
+                                                </span>
+                                             </span>
+                                          </th>
+                                          <th class="w-[60px]">
+                                          </th>
+                                          <th class="w-[60px]">
+                                          </th>
+                                       </tr>
+                                    </thead>
+
+                                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                                       data-kt-datatable-spinner="true" style="display: none;">
+                                       <div class="kt-datatable-loading">
+                                          <svg class="animate-spin -ml-1 h-5 w-5 text-gray-600"
+                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                                stroke-width="3"></circle>
+                                             <path class="opacity-75" fill="currentColor"
+                                                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                                             </path>
+                                          </svg>
+                                          Loading...
+                                       </div>
+                                    </div>
+                                    <tbody>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="1"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Product Management
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Overseeing product development and lifecycle
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">21 Oct, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-4.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-1.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-2.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-green-500">
+                                                      +10
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="2"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Marketing Team
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Developing campaigns, market analysis
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label indeterminate">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none"
+                                                      style="width: 50.0%">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">15 Oct, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-4.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] uppercase text-white ring-background bg-yellow-500">
+                                                      g
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="3"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   HR Department
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Talent acquisition, employee welfare
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">10 Oct, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-4.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-1.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-2.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
+                                                      +A
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="4"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Sales Division
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Customer relations, sales strategy execution
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">05 Oct, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-24.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-7.png">
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="5"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   IT Support
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Maintaining IT infrastructure, user support
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label indeterminate">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none"
+                                                      style="width: 50.0%">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">21 Oct, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-4.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-2.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-primary-foreground ring-background bg-primary">
+                                                      +s
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="6"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Research and Development
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Innovating and developing new products
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label indeterminate">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none"
+                                                      style="width: 50.0%">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">28 Sep, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-3.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-6.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-yellow-500">
+                                                      +4
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="7"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Finance Department
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Managing company finances
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">22 Sep, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-8.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-9.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
+                                                      +8
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="8"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Operations Team
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Ensuring smooth day-to-day operations
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">15 Sep, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-10.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-11.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-green-500">
+                                                      +5
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="9"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Legal Team
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Handling all legal matters
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">10 Sep, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-12.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-13.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-yellow-500">
+                                                      +7
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                       <tr>
+                                          <td class="text-center"><input class="kt-checkbox kt-checkbox-sm"
+                                                data-kt-datatable-row-check="true" type="checkbox" value="10"></td>
+                                          <td>
+                                             <div class="flex flex-col gap-1.5">
+                                                <a class="leading-none font-medium text-sm text-mono hover:text-primary"
+                                                   href="#">
+                                                   Customer Service
+                                                </a>
+                                                <span class="text-sm text-secondary-foreground font-normal">
+                                                   Providing customer support and assistance
+                                                </span>
+                                             </div>
+                                          </td>
+                                          <td>
+                                             <div class="kt-rating">
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label checked">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                                <div class="kt-rating-label indeterminate">
+                                                   <i class="kt-rating-on ki-solid ki-star text-base leading-none"
+                                                      style="width: 50.0%">
+                                                   </i>
+                                                   <i class="kt-rating-off ki-outline ki-star text-base leading-none">
+                                                   </i>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td class="text-sm text-foreground font-normal">05 Sep, 2024</td>
+                                          <td>
+                                             <div class="flex -space-x-2">
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-14.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <img
+                                                      class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-background size-[30px]"
+                                                      src="assets/media/avatars/300-15.png">
+                                                </div>
+                                                <div class="flex">
+                                                   <span
+                                                      class="relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-2xs size-[30px] text-white ring-background bg-violet-500">
+                                                      +3
+                                                   </span>
+                                                </div>
+                                             </div>
+                                          </td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-notepad-edit">
+                                                </i>
+                                             </a></td>
+                                          <td><a class="kt-btn kt-btn-icon kt-btn-ghost" href="#">
+                                                <i class="ki-filled ki-trash">
+                                                </i>
+                                             </a></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
